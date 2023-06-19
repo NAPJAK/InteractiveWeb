@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+
+    <title>Third page</title>
+</head>
+<body>
+   <div class = "top-bar"> 
+    <div class = "nav-bar">
+        <a class = "logo" href = "../Main/mainpage.html">EUR♡MATE</a>
+
+        <ul class = "category">
+            <li><a href = "#">브랜드소개</a></li>
+            <li><a href = "#">소그룹 유럽여행</a></li>
+            <li><a href = "#">패키지 여행 큐레이션</a></li>
+            <li><a href = "#">유럽 여행 정보</a></li>
+            <li><a href = "#">고객지원</a></li>
+        </ul>
+
+        <div class = "right-nav">
+
+            <div OnClick="location.href ='#'" style="cursor:pointer;" class = "right-nav-one">
+                <img src = "shopping-cart.png">
+                <p>장바구니</p>
+            </div>
+            <div OnClick="location.href ='#'" style="cursor:pointer;" class = "right-nav-two">
+                <img src = "sign-in.png">
+                <p>회원가입</p>
+            </div>
+            <div OnClick="location.href ='#'" style="cursor:pointer;" class = "right-nav-three">
+                <img src = "user-add.png">
+                <p>로그인</p>
+            </div>            
+        </div>
+    </div>
+</div>
+
+<div class = "reservation">
+    <div class = "write-info">
+        <input class = "search" type='button' value='조회'/>
+        
+        <div class = "basic-info">
+            <h1>기본 필터</h1>
+            <div class = "search-input">
+                <input class = "input_1" type="text" placeholder= "검색">
+            </div>
+
+            <div class = "inputdiv">
+                <div class = "destination">
+                    <input class = "input_2" type="text" placeholder= "여행지">
+                </div>    
+                <div class = "destination">
+                    <input class = "input_3" type="text" placeholder= "여행인원">
+                </div>
+            </div>
+
+            <div class = "date1">
+                <input class = "input_4" type="text" placeholder= "출국일">
+            </div>
+
+            <p>~</p>
+
+            <div class = "date2">
+                <input class = "input_5" type="text" placeholder= "귀국일">
+            </div>
+        </div>
+
+        <div class = "advanced-info">
+            <h2>고급 필터</h2>
+
+            <div class = "time">
+                <input class = "input_6" type="text" placeholder= "희망출국시간">
+            </div>
+
+            <div class = "shopping">
+                <input class = "input_6" type="text" placeholder= "쇼핑 횟수">
+            </div>
+
+            <p class = "advanced-name">희망 항공사</p>
+
+            <div class = "airline">
+                <div class = "airline-1">
+                    <p>대한항공</p>
+                </div>
+                <div class = "airline-2">
+                    <p>아시아나 항공</p>
+                </div>
+                <div class = "airline-3">
+                    <p>외부 항공사</p>
+                </div>
+            </div>
+
+            <p class = "advanced-name">희망 여행사</p>
+
+            <div class = "trip-company">
+                <div class = "trip-1">
+                    <p>하나투어</p>
+                </div>
+                <div class = "trip-2">
+                    <p>모두투어</p>
+                </div>
+                <div class = "trip-3">
+                    <p>노랑풍선</p>
+                </div>
+                <div class = "trip-4">
+                    <p>웹투어</p>
+                </div>
+                <div class = "trip-5">
+                    <p>온라인투어</p>
+                </div>
+                <div class = "trip-6">
+                    <p>롯데관광</p>
+                </div>
+                <div class = "trip-7">
+                    <p>교원여행</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class = "result">
+        <div class = "option">
+            <p>보기 옵션</p>
+            <div><img src = "arrow-down.png"></div>
+        </div>
+
+        <div class = "countries">
+            <div class = "merchandise" id = "one" OnClick="location.href ='#'" style="cursor:pointer;">
+                <img src = "country1.png">
+                <div class = "country-text">
+                    <p class = "country-name">프랑스의 아름다움을 느끼는 일주 10일</p>
+                    <p class = "country-exp">로맨틱한 프랑스의 거리를 걷고, 세계적인 미술관<br>과 유적지를 만나는 프랑스 여행을 떠나보세요.</p>
+                    <div class = "timeandprice">
+                        <div class = "start-time">
+                            <div class = "time-icon"><img src = "clock.png"></div>
+                            <p>2023년 7월 23일~</p>
+                        </div>
+                        <div class = "middle-line"></div>
+                        <p class = "price">3,400,000원</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class = "merchandise" id = "two" OnClick="location.href ='#'" style="cursor:pointer;">
+                <img src = "country2.png">
+                <div class = "country-text">
+                    <p class = "country-name">지중해 나라의 대명사, 그리스 일주</p>
+                    <p class = "country-exp">고대의 유적이 고스란히 보존되어있는 아테네와 푸<br>른 바다가 보이는 산토리니를 포함합니다.</p>
+                    <div class = "timeandprice">
+                        <div class = "start-time">
+                            <div class = "time-icon"><img src = "clock.png"></div>
+                            <p>2023년 7월 23일~</p>
+                        </div>
+                        <div class = "middle-line"></div>
+                        <p class = "price">3,400,000원</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class = "merchandise" id = "three" OnClick="location.href ='#'" style="cursor:pointer;">
+                <img src = "country3.png">
+                <div class = "country-text">
+                    <p class = "country-name">최고의 가이드와 함께, 이탈리아 일주</p>
+                    <p class = "country-exp">가이드 경력 10년의 전문가가 함께합니다. 유명한<br>관광지부터 가이드가 선정한 숨은 명소까지!</p>
+                    <div class = "timeandprice">
+                        <div class = "start-time">
+                            <div class = "time-icon"><img src = "clock.png"></div>
+                            <p>2023년 9월 23일~</p>
+                        </div>
+                        <div class = "middle-line"></div>
+                        <p class = "price">4,400,000원</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class = "merchandise" id = "four" OnClick="location.href ='#'" style="cursor:pointer;">
+                <img src = "country4.png">
+                <div class = "country-text">
+                    <p class = "country-name">안토니오 가우디의 고향, 바르셀로나 여행</p>
+                    <p class = "country-exp">세계적인 건축가 안토니오 가우디의 고향, 바르셀<br>로나를 여행하며 그의 자취를 따라가봅시다.</p>
+                    <div class = "timeandprice">
+                        <div class = "start-time">
+                            <div class = "time-icon"><img src = "clock.png"></div>
+                            <p>2023년 7월 14일~</p>
+                        </div>
+                        <div class = "middle-line"></div>
+                        <p class = "price">2,400,000원</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class = "merchandise" id = "five" OnClick="location.href ='#'" style="cursor:pointer;">
+                <img src = "country5.png">
+                <div class = "country-text">
+                    <p class = "country-name">색다른 크리스마스, 프랑크푸르트 여행</p>
+                    <p class = "country-exp">이번 크리스마스는 프랑크푸르트에서 보내는게 어<br>떠신가요? 잊지못할 색다른 경험이 될 껍니다.</p>
+                    <div class = "timeandprice">
+                        <div class = "start-time">
+                            <div class = "time-icon"><img src = "clock.png"></div>
+                            <p>2023년 12월 20일~</p>
+                        </div>
+                        <div class = "middle-line"></div>
+                        <p class = "price">4,470,000원</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class = "merchandise" id = "six" OnClick="location.href ='#'" style="cursor:pointer;">
+                <img src = "country6.png">
+                <div class = "country-text">
+                    <p class = "country-name">바로크의 정수를 만나다. 베르사유 여행</p>
+                    <p class = "country-exp">바로크 건축의 정수, 루이 14세가 거주했던 아름다<br>운 베르사유 궁전을 거닐어봅니다.</p>
+                    <div class = "timeandprice">
+                        <div class = "start-time">
+                            <div class = "time-icon"><img src = "clock.png"></div>
+                            <p>2023년 8월 3일~</p>
+                        </div>
+                        <div class = "middle-line"></div>
+                        <p class = "price">3,800,000원</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        
+        <div class = "trip-curation" OnClick="location.href ='#'" style="cursor:pointer;">
+            <p>원하는 패키지가 없으신가요? - <b>여행 큐레이션 받기</b></p>
+        </div>
+    </div>
+</div>
+
+<div class = "footer">
+    <div class = "footer-text">
+        <p class = "footer-name">EUR♡MATE</p>
+        <div class = "footer-line"></div>
+
+        <div class = "bottom-text">
+            <div class = "footer-contents">
+                <div class = "footer-company">
+                    <p>상호명: (주) 더 이엘투어</p>
+                    <div></div>
+                    <p>대표명: 권태홍</p>
+                    <div></div>
+                    <p>개인정보 관리 책임: 한혜윤</p>
+                </div>
+                <div class = "footer-numbers">
+                    <p>법인등록번호: 164711-0109684</p>
+                    <div></div>
+                    <p>E-mail: cscentre@euromate.co.kr</p>
+                </div>
+                <div class = "footer-location">
+                    <p>주소: 세종시 호려울로9 네이버타워 7층</p>
+                </div>
+                <p>Copyright ⓒ (주)더이엘투어 유로메이트</p>
+            </div>
+            <div class = "footer-link">
+                <ul class = "linkdiv1">
+                    <li><a href = "#">브랜드소개</a></li>
+                    <li><a href = "#">소그룹 유럽여행</a></li>
+                    <li><a href = "#">여행 큐레이션</a></li>
+                </ul>
+                <ul class = "linkdiv2">
+                    <li><a href = "#">유럽 여행정보</a></li>
+                    <li><a href = "#">고객지원</a></li>
+                    <li><a href = "#">Q&A</a></li>
+                </ul>
+                <ul class = "linkdiv3">
+                    <li><a href = "#">이용약관</a></li>
+                    <li><a href = "#">개인정보처리방침</a></li>
+                    <li><a href = "#">여행약관</a></li>
+                </ul>
+            </div>
+
+            <div class = "footer-icons">
+                <div class = "icon1" OnClick="location.href ='#'" style="cursor:pointer;">
+                    <img class = "logo" src = "kakaotalk.png">
+                  </div>
+                  
+                  <div class = "icon2" OnClick="location.href ='#'" style="cursor:pointer;">
+                    <img class = "logo" src = "facebook.png">
+                  </div>
+            </div>
+        </div>   
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
